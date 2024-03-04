@@ -3,6 +3,7 @@ import {
 	FilterLogEventsCommand,
 } from "@aws-sdk/client-cloudwatch-logs";
 import { mockClient } from "aws-sdk-client-mock";
+import retry from "p-retry";
 import { expect, test } from "vitest";
 
 const logs = new CloudWatchLogs();
