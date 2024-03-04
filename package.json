@@ -1,0 +1,16 @@
+{
+  "name": "aws-async-e2e-test",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+		"lint": "pnpm biome check .",
+		"prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@biomejs/biome": "1.5.3",
+    "husky": "9.0.11"
+  }
+}

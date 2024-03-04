@@ -1,0 +1,1 @@
+pnpm run '/(lint|test|type-check)/'
